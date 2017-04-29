@@ -35,9 +35,9 @@
 
 #define SD_SLOT    0
 
-#define SD_SIZE_UNCRYPTED_PARITION                    (1024*2*2048) // SD Blocks a 512 Bytes = 2048 MB
+#define SD_SIZE_UNCRYPTED_PARITION                    (1024*7*2048) // SD Blocks a 512 Bytes = 7168 MB
 #define SD_MAGIC_NUMBER_HIDDEN_CRYPTED_PARITION       0x23636923    // u32 for secure
-#define SD_START_HIDDEN_CRYPTED_PARITION              (1024*2*1024) // SD Blocks a 512 Bytes = 2048 MB
+#define SD_START_HIDDEN_CRYPTED_PARITION              (1024*7*1024) // SD Blocks a 512 Bytes = 7168 MB
 
 extern U32 gSdStartUncryptedVolume_u32;
 extern U32 gSdEndUncryptedVolume_u32;
